@@ -106,6 +106,9 @@ namespace Hotel_Management_System
                 if (check)
                 {
                     FormDashboard fd = new FormDashboard(); 
+                    fd.Username = txtUsername.Text;
+                    txtUsername.Clear();
+                    txtPassword.Clear();
                     fd.Show();  
                 }
                 else {

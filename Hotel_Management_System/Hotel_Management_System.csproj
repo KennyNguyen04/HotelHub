@@ -97,6 +97,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logohotelhub.ico" />
+    <None Include="Resources\dashboard1.png" />
+    <None Include="Resources\new-account.png" />
+    <None Include="Resources\bed.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\time-management %281%29.png" />
+    <None Include="Resources\time-management.png" />
+    <None Include="Resources\settings %283%29.png" />
+    <None Include="Resources\settings %281%29.png" />
+    <None Include="Resources\dashboard_30px.png" />
+    <None Include="Resources\dashboard.png" />
     <None Include="Resources\logohotelhub.jpg" />
     <None Include="Resources\home.png" />
     <None Include="Resources\Gemini_Generated_Image_nl06g7nl06g7nl06.jpg" />
