@@ -16,5 +16,12 @@ namespace Hotel_Management_System
         {
             InitializeComponent();
         }
+
+        private void linkLabelLogOut_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+    
     }
 }

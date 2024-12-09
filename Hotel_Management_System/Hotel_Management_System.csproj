@@ -50,22 +50,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form\FormDashboard.cs">
+    <Compile Include="DbConnector.cs" />
+    <Compile Include="View\FormDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\FormDashboard.Designer.cs">
+    <Compile Include="View\FormDashboard.Designer.cs">
       <DependentUpon>FormDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\FormLogin.cs">
+    <Compile Include="View\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\FormLogin.Designer.cs">
+    <Compile Include="View\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="KhachSanController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form\FormLogin.resx">
+    <EmbeddedResource Include="View\FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -93,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logohotelhub.ico" />
+    <None Include="Resources\logohotelhub.jpg" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\Gemini_Generated_Image_nl06g7nl06g7nl06.jpg" />
     <None Include="Resources\modern-luxury-hotel-reception-lounge-vector-art-illustration_1020765-227.jpg" />
     <None Include="Resources\cartoon-background-hotel-reception-cozy-foyer-modern-desk-illumination-empty-hall_33099-943.jpg" />
     <None Include="Resources\istockphoto-1011283370-612x612.jpg" />
