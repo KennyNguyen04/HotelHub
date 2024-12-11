@@ -69,6 +69,8 @@ namespace Hotel_Management_System
         private void btnSetting_Click(object sender, EventArgs e)
         {
             movePanel(btnSetting);
+            userControlSetting1.Clear1();
+            userControlSetting1.Show();
         }
     }
 }
