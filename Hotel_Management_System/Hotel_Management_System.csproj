@@ -51,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbConnector.cs" />
+    <Compile Include="User Controller\UserControlClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controller\UserControlClient.Designer.cs">
+      <DependentUpon>UserControlClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controller\UserControlSetting.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="KhachSanController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="User Controller\UserControlClient.resx">
+      <DependentUpon>UserControlClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Controller\UserControlSetting.resx">
       <DependentUpon>UserControlSetting.cs</DependentUpon>
     </EmbeddedResource>

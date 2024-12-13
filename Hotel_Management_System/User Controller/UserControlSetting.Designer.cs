@@ -40,6 +40,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPageSearchUser = new System.Windows.Forms.TabPage();
             this.gvUser = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSearchUsername = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,9 +54,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControlUser.SuspendLayout();
             this.tabPageAddUser.SuspendLayout();
             this.tabPageSearchUser.SuspendLayout();
@@ -190,6 +190,7 @@
             this.gvUser.AllowUserToAddRows = false;
             this.gvUser.AllowUserToDeleteRows = false;
             this.gvUser.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.gvUser.BackgroundColor = System.Drawing.Color.LightGray;
             this.gvUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvUser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -205,6 +206,36 @@
             this.gvUser.Size = new System.Drawing.Size(1409, 363);
             this.gvUser.TabIndex = 3;
             this.gvUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvUser_CellClick);
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column1.DataPropertyName = "User_ID";
+            this.Column1.HeaderText = "ID";
+            this.Column1.MinimumWidth = 12;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 49;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column2.DataPropertyName = "User_Name";
+            this.Column2.HeaderText = "Username";
+            this.Column2.MinimumWidth = 12;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 678;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column3.DataPropertyName = "User_Password";
+            this.Column3.HeaderText = "Password";
+            this.Column3.MinimumWidth = 12;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 679;
             // 
             // txtSearchUsername
             // 
@@ -329,36 +360,6 @@
             this.label9.Size = new System.Drawing.Size(190, 19);
             this.label9.TabIndex = 0;
             this.label9.Text = "Update and Delele User";
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column1.DataPropertyName = "User_ID";
-            this.Column1.HeaderText = "ID";
-            this.Column1.MinimumWidth = 12;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 49;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column2.DataPropertyName = "User_Name";
-            this.Column2.HeaderText = "Username";
-            this.Column2.MinimumWidth = 12;
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 678;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column3.DataPropertyName = "User_Password";
-            this.Column3.HeaderText = "Password";
-            this.Column3.MinimumWidth = 12;
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 679;
             // 
             // UserControlSetting
             // 

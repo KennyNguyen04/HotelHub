@@ -48,6 +48,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.userControlSetting1 = new Hotel_Management_System.User_Controller.UserControlSetting();
+            this.userControlClient1 = new Hotel_Management_System.User_Controller.UserControlClient();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -283,12 +284,25 @@
             this.userControlSetting1.TabIndex = 1;
             this.userControlSetting1.Visible = false;
             // 
+            // userControlClient1
+            // 
+            this.userControlClient1.BackColor = System.Drawing.Color.White;
+            this.userControlClient1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlClient1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.userControlClient1.Location = new System.Drawing.Point(339, 264);
+            this.userControlClient1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.userControlClient1.Name = "userControlClient1";
+            this.userControlClient1.Size = new System.Drawing.Size(1581, 816);
+            this.userControlClient1.TabIndex = 0;
+            this.userControlClient1.Visible = false;
+            // 
             // FormDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.userControlClient1);
             this.Controls.Add(this.userControlSetting1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -331,5 +345,6 @@
         private System.Windows.Forms.Panel panelSlide;
         private System.Windows.Forms.Timer timer1;
         private User_Controller.UserControlSetting userControlSetting1;
+        private User_Controller.UserControlClient userControlClient1;
     }
 }
