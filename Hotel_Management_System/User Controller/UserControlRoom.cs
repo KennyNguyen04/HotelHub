@@ -141,6 +141,30 @@ namespace Hotel_Management_System.User_Controller
                 MessageBox.Show("please first select row from table.", "selection of row", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void txtPhoneNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ngăn chặn ký tự được nhập vào TextBox
+            }
+        }
+
+        private void txtSearchRoomNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ngăn chặn ký tự được nhập vào TextBox
+            }
+        }
+
+        private void txtPhoneNo1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ngăn chặn ký tự được nhập vào TextBox
+            }
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
 

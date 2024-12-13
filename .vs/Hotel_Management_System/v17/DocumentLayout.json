@@ -3,44 +3,40 @@
   "WorkspaceRootPath": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|D:\\Work_Space\\visualStudio\\Hotel_Management_System\\hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\view\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|D:\\Work_Space\\visualStudio\\Hotel_Management_System\\hotel_management_system\\view\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\view\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\view\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|D:\\Work_Space\\visualStudio\\Hotel_Management_System\\hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|D:\\Work_Space\\visualStudio\\Hotel_Management_System\\hotel_management_system\\view\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\view\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|D:\\Work_Space\\visualStudio\\Hotel_Management_System\\hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|d:\\work_space\\visualstudio\\hotel_management_system\\hotel_management_system\\user controller\\usercontrolclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44C78BC-7E2A-4A1F-849F-EA7032821236}|Hotel_Management_System\\Hotel_Management_System.csproj|solutionrelative:hotel_management_system\\user controller\\usercontrolclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,44 +46,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormLogin.cs [Design]",
-              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\View\\FormLogin.cs",
-              "RelativeDocumentMoniker": "Hotel_Management_System\\View\\FormLogin.cs",
-              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\View\\FormLogin.cs [Design]",
-              "RelativeToolTip": "Hotel_Management_System\\View\\FormLogin.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "UserControlSetting.cs [Design]",
+              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlSetting.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlSetting.cs",
+              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlSetting.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlSetting.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:58:27.514Z",
+              "WhenOpened": "2024-12-13T21:13:38.548Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserControlDashboard.cs",
-              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlDashboard.cs",
-              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlDashboard.cs",
-              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlDashboard.cs",
-              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlDashboard.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIA8wCYAAAATAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UserControlRoom.cs",
+              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlRoom.cs",
+              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs",
+              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlRoom.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAmwKQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:44:44.147Z",
+              "WhenOpened": "2024-12-13T21:10:50.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "UserControlRoom.cs [Design]",
+              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlRoom.cs",
+              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T21:10:42.934Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserControlDashboard.cs [Design]",
               "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlDashboard.cs",
               "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlDashboard.cs",
               "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlDashboard.cs [Design]",
               "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T18:54:28.924Z",
+              "WhenOpened": "2024-12-13T21:10:33.952Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserControlClient.Designer.cs",
+              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlClient.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlClient.Designer.cs",
+              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlClient.Designer.cs",
+              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlClient.Designer.cs",
+              "ViewState": "AgIAAKABAAAAAAAAAAAYwLIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T21:09:35.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FormDashboard.cs",
               "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\View\\FormDashboard.cs",
               "RelativeDocumentMoniker": "Hotel_Management_System\\View\\FormDashboard.cs",
               "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\View\\FormDashboard.cs",
               "RelativeToolTip": "Hotel_Management_System\\View\\FormDashboard.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwF0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T18:03:37.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FormDashboard.cs [Design]",
               "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\View\\FormDashboard.cs",
               "RelativeDocumentMoniker": "Hotel_Management_System\\View\\FormDashboard.cs",
@@ -128,54 +149,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControlRoom.Designer.cs",
-              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlRoom.Designer.cs",
-              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.Designer.cs",
-              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlRoom.Designer.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAYwPYAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T17:47:55.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserControlClient.cs",
               "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlClient.cs",
               "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlClient.cs",
               "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlClient.cs",
               "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlClient.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAYwGsAAACNAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAwJUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T15:38:25.91Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControlRoom.cs",
-              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs",
-              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlRoom.cs",
-              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs",
-              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlRoom.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T14:18:30.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControlRoom.cs [Design]",
-              "DocumentMoniker": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs",
-              "RelativeDocumentMoniker": "Hotel_Management_System\\User Controller\\UserControlRoom.cs",
-              "ToolTip": "D:\\Work_Space\\visualStudio\\Hotel_Management_System\\Hotel_Management_System\\User Controller\\UserControlRoom.cs [Design]",
-              "RelativeToolTip": "Hotel_Management_System\\User Controller\\UserControlRoom.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:42:37.236Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

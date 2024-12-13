@@ -157,6 +157,7 @@
             this.txtPhoneNo.Name = "txtPhoneNo";
             this.txtPhoneNo.Size = new System.Drawing.Size(385, 37);
             this.txtPhoneNo.TabIndex = 2;
+            this.txtPhoneNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneNo_KeyPress);
             // 
             // label2
             // 
@@ -289,6 +290,7 @@
             this.txtSearchRoomNo.Size = new System.Drawing.Size(590, 27);
             this.txtSearchRoomNo.TabIndex = 1;
             this.txtSearchRoomNo.TextChanged += new System.EventHandler(this.txtSearchRoomNo_TextChanged);
+            this.txtSearchRoomNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearchRoomNo_KeyPress);
             // 
             // label6
             // 
@@ -387,6 +389,7 @@
             this.txtPhoneNo1.Name = "txtPhoneNo1";
             this.txtPhoneNo1.Size = new System.Drawing.Size(385, 37);
             this.txtPhoneNo1.TabIndex = 2;
+            this.txtPhoneNo1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneNo1_KeyPress);
             // 
             // label3
             // 

@@ -96,7 +96,7 @@
             this.tabPageUpDelClient.Location = new System.Drawing.Point(4, 4);
             this.tabPageUpDelClient.Name = "tabPageUpDelClient";
             this.tabPageUpDelClient.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageUpDelClient.Size = new System.Drawing.Size(1496, 563);
+            this.tabPageUpDelClient.Size = new System.Drawing.Size(1496, 559);
             this.tabPageUpDelClient.TabIndex = 2;
             this.tabPageUpDelClient.Text = "Update and Delete User";
             this.tabPageUpDelClient.UseVisualStyleBackColor = true;
@@ -136,6 +136,7 @@
             this.txtPhoneNo1.Name = "txtPhoneNo1";
             this.txtPhoneNo1.Size = new System.Drawing.Size(385, 32);
             this.txtPhoneNo1.TabIndex = 3;
+            this.txtPhoneNo1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneNo1_KeyPress);
             // 
             // label7
             // 
@@ -219,6 +220,7 @@
             this.txtSearchPhoneNo.Size = new System.Drawing.Size(590, 32);
             this.txtSearchPhoneNo.TabIndex = 1;
             this.txtSearchPhoneNo.TextChanged += new System.EventHandler(this.txtSearchPhoneNo_TextChanged);
+            this.txtSearchPhoneNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearchPhoneNo_KeyPress);
             // 
             // label6
             // 
@@ -322,7 +324,7 @@
             this.tabPageSearchClient.Location = new System.Drawing.Point(4, 4);
             this.tabPageSearchClient.Name = "tabPageSearchClient";
             this.tabPageSearchClient.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSearchClient.Size = new System.Drawing.Size(1496, 563);
+            this.tabPageSearchClient.Size = new System.Drawing.Size(1496, 559);
             this.tabPageSearchClient.TabIndex = 1;
             this.tabPageSearchClient.Text = "Search Client";
             this.tabPageSearchClient.UseVisualStyleBackColor = true;
@@ -430,6 +432,7 @@
             this.txtPhoneNo.Name = "txtPhoneNo";
             this.txtPhoneNo.Size = new System.Drawing.Size(385, 32);
             this.txtPhoneNo.TabIndex = 3;
+            this.txtPhoneNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneNo_KeyPress);
             // 
             // label4
             // 

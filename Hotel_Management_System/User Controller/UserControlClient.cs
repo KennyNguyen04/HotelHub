@@ -126,6 +126,28 @@ namespace Hotel_Management_System.User_Controller
             }
         }
 
+        private void txtPhoneNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ngăn chặn ký tự được nhập vào TextBox
+            }
+        }
 
+        private void txtSearchPhoneNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ngăn chặn ký tự được nhập vào TextBox
+            }
+        }
+
+        private void txtPhoneNo1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ngăn chặn ký tự được nhập vào TextBox
+            }
+        }
     }
 }

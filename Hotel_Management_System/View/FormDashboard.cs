@@ -44,6 +44,9 @@ namespace Hotel_Management_System
         {
             timer1.Start();
             labelUser.Text = Username;
+            userControlDashboard1.User();
+            userControlDashboard1.Client();
+            userControlDashboard1.Room();
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -79,14 +82,7 @@ namespace Hotel_Management_System
             userControlRoom1.Show();
         }
 
-        private void btnReservation_Click(object sender, EventArgs e)
-        {
-            movePanel(btnReservation);
-            userControlDashboard1.Hide();
-            userControlSetting1.Hide();
-            userControlClient1.Hide();
-            userControlRoom1.Hide();
-        }
+        
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
