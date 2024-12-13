@@ -33,14 +33,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBoxShow = new System.Windows.Forms.PictureBox();
             this.pictureBoxHide = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label5 = new System.Windows.Forms.Label();
             this.pictureBoxMinimize = new System.Windows.Forms.PictureBox();
             this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -57,7 +56,6 @@
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.txtPassword);
             this.groupBox1.Controls.Add(this.btnlogin);
-            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtUsername);
             this.groupBox1.Controls.Add(this.label2);
@@ -91,26 +89,13 @@
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.ForeColor = System.Drawing.Color.White;
-            this.btnlogin.Location = new System.Drawing.Point(61, 230);
+            this.btnlogin.Location = new System.Drawing.Point(61, 204);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(258, 39);
+            this.btnlogin.Size = new System.Drawing.Size(258, 55);
             this.btnlogin.TabIndex = 3;
             this.btnlogin.Text = "LOGIN";
             this.btnlogin.UseVisualStyleBackColor = false;
             this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(125, 207);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Forgot Password?";
             // 
             // label3
             // 
@@ -143,17 +128,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Username:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.LightSalmon;
-            this.label5.Font = new System.Drawing.Font("AntsyPants", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(613, 206);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(733, 114);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "HOTEL HUB";
-            // 
             // pictureBoxShow
             // 
             this.pictureBoxShow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -179,6 +153,17 @@
             this.pictureBoxHide.TabStop = false;
             this.pictureBoxHide.Click += new System.EventHandler(this.pictureBoxHide_Click);
             this.pictureBoxHide.MouseHover += new System.EventHandler(this.pictureBoxHide_MouseHover);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.LightSalmon;
+            this.label5.Font = new System.Drawing.Font("AntsyPants", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(613, 206);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(733, 114);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "HOTEL HUB";
             // 
             // pictureBoxMinimize
             // 
@@ -259,7 +244,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBoxShow;
         private System.Windows.Forms.PictureBox pictureBoxHide;
         private System.Windows.Forms.ToolTip toolTip1;

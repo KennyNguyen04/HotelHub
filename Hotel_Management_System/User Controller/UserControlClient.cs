@@ -81,7 +81,7 @@ namespace Hotel_Management_System.User_Controller
             {
                 check = db.UpdateClient(ID,txtFName1.Text.Trim(), txtLName1.Text.Trim(), txtPhoneNo1.Text.Trim(), txtAddress1.Text.Trim());
                 if (check)
-                    Clear();
+                    Clear1();
             }
         }
 

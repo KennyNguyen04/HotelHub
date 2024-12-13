@@ -57,6 +57,12 @@
     <Compile Include="User Controller\UserControlClient.Designer.cs">
       <DependentUpon>UserControlClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Controller\UserControlDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controller\UserControlDashboard.Designer.cs">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controller\UserControlRoom.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="User Controller\UserControlClient.resx">
       <DependentUpon>UserControlClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controller\UserControlDashboard.resx">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controller\UserControlRoom.resx">
       <DependentUpon>UserControlRoom.cs</DependentUpon>
@@ -124,6 +133,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logohotelhub.ico" />
+    <None Include="Resources\feedback.png" />
+    <None Include="Resources\hotel.png" />
+    <None Include="Resources\people.png" />
+    <None Include="Resources\user group.png" />
     <None Include="Resources\dashboard1.png" />
     <None Include="Resources\new-account.png" />
     <None Include="Resources\bed.png" />

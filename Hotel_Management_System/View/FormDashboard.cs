@@ -51,33 +51,48 @@ namespace Hotel_Management_System
             movePanel(btnDashboard);
             userControlSetting1.Hide();
             userControlClient1.Hide();
+            userControlRoom1.Hide();
+            userControlDashboard1.User();
+            userControlDashboard1.Client();
+            userControlDashboard1.Room();
+            userControlDashboard1.Show();
         }
 
         private void btnClient_Click(object sender, EventArgs e)
         {
-            movePanel(btnClient);
+            movePanel(btnClient); 
+            userControlRoom1.Hide();
+            userControlDashboard1.Hide();
             userControlSetting1.Hide();
             userControlClient1.Clear();
             userControlClient1.Show();
+            
         }
 
         private void btnRoom_Click(object sender, EventArgs e)
         {
             movePanel(btnRoom);
+            userControlDashboard1.Hide();
             userControlSetting1.Hide();
             userControlClient1.Hide();
+            userControlRoom1.Clear();
+            userControlRoom1.Show();
         }
 
         private void btnReservation_Click(object sender, EventArgs e)
         {
             movePanel(btnReservation);
+            userControlDashboard1.Hide();
             userControlSetting1.Hide();
             userControlClient1.Hide();
+            userControlRoom1.Hide();
         }
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
             movePanel(btnSetting);
+            userControlDashboard1.Hide();
+            userControlRoom1.Hide();
             userControlClient1.Hide();
             userControlSetting1.Clear1();
             userControlSetting1.Show();

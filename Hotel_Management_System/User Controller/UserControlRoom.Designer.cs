@@ -41,17 +41,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPageSearchRoom = new System.Windows.Forms.TabPage();
             this.gvRoom = new System.Windows.Forms.DataGridView();
-            this.txtSearchRoomNo = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tabPageUpDelRoom = new System.Windows.Forms.TabPage();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtSearchRoomNo = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tabPageUpDelRoom = new System.Windows.Forms.TabPage();
             this.groupBoxFree1 = new System.Windows.Forms.GroupBox();
             this.rbtnYes1 = new System.Windows.Forms.RadioButton();
             this.rbtnNo1 = new System.Windows.Forms.RadioButton();
@@ -60,6 +57,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tabControlRoom.SuspendLayout();
             this.tabPageAddRoom.SuspendLayout();
             this.groupBoxFree.SuspendLayout();
@@ -98,6 +98,7 @@
             this.tabPageAddRoom.TabIndex = 0;
             this.tabPageAddRoom.Text = "Add Client";
             this.tabPageAddRoom.UseVisualStyleBackColor = true;
+            this.tabPageAddRoom.Leave += new System.EventHandler(this.tabPageAddRoom_Leave);
             // 
             // groupBoxFree
             // 
@@ -193,6 +194,7 @@
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
             // label1
             // 
@@ -218,6 +220,8 @@
             this.tabPageSearchRoom.TabIndex = 1;
             this.tabPageSearchRoom.Text = "Search Room";
             this.tabPageSearchRoom.UseVisualStyleBackColor = true;
+            this.tabPageSearchRoom.Enter += new System.EventHandler(this.tabPageSearchRoom_Enter);
+            this.tabPageSearchRoom.Leave += new System.EventHandler(this.tabPageSearchRoom_Leave);
             // 
             // gvRoom
             // 
@@ -240,6 +244,43 @@
             this.gvRoom.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gvRoom.Size = new System.Drawing.Size(1409, 363);
             this.gvRoom.TabIndex = 2;
+            this.gvRoom.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvRoom_CellClick);
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "Room_Number";
+            this.Column1.FillWeight = 200F;
+            this.Column1.HeaderText = "Room Number";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "Room_Type";
+            this.Column2.FillWeight = 300F;
+            this.Column2.HeaderText = "Type";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "Room_Phone";
+            this.Column3.FillWeight = 500F;
+            this.Column3.HeaderText = "Phone No";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "Room_Free";
+            this.Column4.FillWeight = 200F;
+            this.Column4.HeaderText = "Is Free?";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // txtSearchRoomNo
             // 
@@ -247,6 +288,7 @@
             this.txtSearchRoomNo.Name = "txtSearchRoomNo";
             this.txtSearchRoomNo.Size = new System.Drawing.Size(590, 27);
             this.txtSearchRoomNo.TabIndex = 1;
+            this.txtSearchRoomNo.TextChanged += new System.EventHandler(this.txtSearchRoomNo_TextChanged);
             // 
             // label6
             // 
@@ -287,76 +329,6 @@
             this.tabPageUpDelRoom.TabIndex = 2;
             this.tabPageUpDelRoom.Text = "Update and Delete Room";
             this.tabPageUpDelRoom.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnDelete.BackColor = System.Drawing.Color.Red;
-            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDelete.FlatAppearance.BorderSize = 0;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(639, 314);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(8);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(214, 80);
-            this.btnDelete.TabIndex = 5;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(198)))), ((int)(((byte)(218)))));
-            this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUpdate.FlatAppearance.BorderSize = 0;
-            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(326, 314);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(8);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(214, 80);
-            this.btnUpdate.TabIndex = 4;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = false;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "Room_Number";
-            this.Column1.FillWeight = 200F;
-            this.Column1.HeaderText = "Room Number";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "Room_Type";
-            this.Column2.FillWeight = 300F;
-            this.Column2.HeaderText = "Type";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "Room_Phone";
-            this.Column3.FillWeight = 500F;
-            this.Column3.HeaderText = "Phone No";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "Room_Free";
-            this.Column4.FillWeight = 200F;
-            this.Column4.HeaderText = "Is Free?";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
             // 
             // groupBoxFree1
             // 
@@ -446,6 +418,42 @@
             this.label7.Size = new System.Drawing.Size(365, 34);
             this.label7.TabIndex = 0;
             this.label7.Text = "Update and Delete Room:";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.FlatAppearance.BorderSize = 0;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Location = new System.Drawing.Point(639, 314);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(8);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(214, 80);
+            this.btnDelete.TabIndex = 5;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(198)))), ((int)(((byte)(218)))));
+            this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdate.FlatAppearance.BorderSize = 0;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.Color.White;
+            this.btnUpdate.Location = new System.Drawing.Point(326, 314);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(8);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(214, 80);
+            this.btnUpdate.TabIndex = 4;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // UserControlRoom
             // 

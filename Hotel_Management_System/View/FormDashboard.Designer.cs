@@ -49,6 +49,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.userControlSetting1 = new Hotel_Management_System.User_Controller.UserControlSetting();
             this.userControlClient1 = new Hotel_Management_System.User_Controller.UserControlClient();
+            this.userControlRoom1 = new Hotel_Management_System.User_Controller.UserControlRoom();
+            this.userControlDashboard1 = new Hotel_Management_System.User_Controller.UserControlDashboard();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -198,11 +200,11 @@
             // 
             this.labelUser.AutoSize = true;
             this.labelUser.BackColor = System.Drawing.Color.Transparent;
-            this.labelUser.Font = new System.Drawing.Font("Century Gothic", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUser.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold);
             this.labelUser.ForeColor = System.Drawing.Color.White;
-            this.labelUser.Location = new System.Drawing.Point(285, 174);
+            this.labelUser.Location = new System.Drawing.Point(355, 174);
             this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(29, 32);
+            this.labelUser.Size = new System.Drawing.Size(36, 40);
             this.labelUser.TabIndex = 3;
             this.labelUser.Text = "?";
             // 
@@ -210,11 +212,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(83, 174);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 32);
+            this.label1.Size = new System.Drawing.Size(266, 40);
             this.label1.TabIndex = 3;
             this.label1.Text = "Welcome User:";
             // 
@@ -233,11 +235,11 @@
             // labelDateTime
             // 
             this.labelDateTime.AutoSize = true;
-            this.labelDateTime.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDateTime.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold);
             this.labelDateTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(198)))), ((int)(((byte)(218)))));
-            this.labelDateTime.Location = new System.Drawing.Point(6, 84);
+            this.labelDateTime.Location = new System.Drawing.Point(6, 73);
             this.labelDateTime.Name = "labelDateTime";
-            this.labelDateTime.Size = new System.Drawing.Size(24, 26);
+            this.labelDateTime.Size = new System.Drawing.Size(36, 40);
             this.labelDateTime.TabIndex = 3;
             this.labelDateTime.Text = "?";
             // 
@@ -296,12 +298,37 @@
             this.userControlClient1.TabIndex = 0;
             this.userControlClient1.Visible = false;
             // 
+            // userControlRoom1
+            // 
+            this.userControlRoom1.BackColor = System.Drawing.Color.White;
+            this.userControlRoom1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlRoom1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.userControlRoom1.Location = new System.Drawing.Point(339, 264);
+            this.userControlRoom1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.userControlRoom1.Name = "userControlRoom1";
+            this.userControlRoom1.Size = new System.Drawing.Size(1581, 816);
+            this.userControlRoom1.TabIndex = 2;
+            this.userControlRoom1.Visible = false;
+            // 
+            // userControlDashboard1
+            // 
+            this.userControlDashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlDashboard1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.userControlDashboard1.Location = new System.Drawing.Point(339, 264);
+            this.userControlDashboard1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.userControlDashboard1.Name = "userControlDashboard1";
+            this.userControlDashboard1.Size = new System.Drawing.Size(1581, 816);
+            this.userControlDashboard1.TabIndex = 3;
+            this.userControlDashboard1.Visible = false;
+            // 
             // FormDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.userControlDashboard1);
+            this.Controls.Add(this.userControlRoom1);
             this.Controls.Add(this.userControlClient1);
             this.Controls.Add(this.userControlSetting1);
             this.Controls.Add(this.panel3);
@@ -346,5 +373,7 @@
         private System.Windows.Forms.Timer timer1;
         private User_Controller.UserControlSetting userControlSetting1;
         private User_Controller.UserControlClient userControlClient1;
+        private User_Controller.UserControlRoom userControlRoom1;
+        private User_Controller.UserControlDashboard userControlDashboard1;
     }
 }
